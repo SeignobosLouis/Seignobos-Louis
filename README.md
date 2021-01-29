@@ -12,19 +12,19 @@ Veuillez trouvez sur ce repository tous les dossiers nécessaires à le lecture 
 
 La hiérarchie des fichiers est organisée ainsi :
 
-dans le dossier :
+<ul> dans le dossier :
 
--CSS : vous trouverez des pages de CSS qui est un langage informatique utilisé sur l'internet pour mettre en forme le texte contenu sur les pages HTML.
+<li> CSS : vous trouverez des pages de CSS qui est un langage informatique utilisé sur l'internet pour mettre en forme le texte contenu sur les pages HTML. </li>
 
--Favicon : vous trouverez plusieurs images qui m'ont permis de mettre un logo à l'onglet de ma page web comme ceci ![alt text](https://github.com/freyaliser/Onglet-image/blob/main/onglet.png "onglet")
+<li> Favicon : vous trouverez plusieurs images qui m'ont permis de mettre un logo à l'onglet de ma page web comme ceci ![alt text](https://github.com/freyaliser/Onglet-image/blob/main/onglet.png "onglet") </li>
 
--Font : vous trouverez tous les fichiers concernant les polices présentes dans le site web.
+<li> Font : vous trouverez tous les fichiers concernant les polices présentes dans le site web. </li>
 
--Images : vous trouverez chaque image que j'ai pu insérer dans mon site web.
+<li> Images : vous trouverez chaque image que j'ai pu insérer dans mon site web. </li>
 
--JS : voici la partie javascript du site, avec une taille assez négligeable, mais utile pour utiliser les différents thèmes du site ainsi qu'un menu qui se déroule quand vous scrollez vers le bas.
+<li> JS : voici la partie javascript du site, avec une taille assez négligeable, mais utile pour utiliser les différents thèmes du site ainsi qu'un menu qui se déroule quand vous scrollez vers le bas. </li>
 
--PDF : ce dossier inclue des fichiers au format .pdf car j'ai du montrer différents projets que j'avais fait auparavant pour le site web. 
+<li> PDF : ce dossier inclue des fichiers au format .pdf car j'ai du montrer différents projets que j'avais fait auparavant pour le site web. </li>
 
 ## Pages HTML
 
