@@ -25,7 +25,7 @@ La hiérarchie des fichiers est organisée ainsi :
 <li> JS : voici la partie javascript du site, avec une taille assez négligeable, mais utile pour utiliser les différents thèmes du site ainsi qu'un menu qui se déroule quand vous scrollez vers le bas. </li>
 
 <li> PDF : ce dossier inclue des fichiers au format .pdf car j'ai du montrer différents projets que j'avais fait auparavant pour le site web. </li>
-</ul> ![alt text](https://github.com/freyaliser/Onglet-image/blob/main/onglet.png)
+</ul> 
 
 ## Pages HTML
 
