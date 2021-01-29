@@ -34,5 +34,5 @@ Vous trouverez les différentes pages de mon site, toutefois vous pouvez navigue
 
 Ce fichier écrit en markdown me permet de vous écrire à travers cette page.
 
-## ADRESSE URL
+## Adresse URL
 Vous retrouverez ici l'adresse url du site : https://seignobos-l.000webhostapp.com 
