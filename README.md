@@ -6,7 +6,7 @@ Bonjour,
 
 Veuillez trouvez sur ce repository tous les dossiers nécessaires à le lecture du site web depuis votre navigateur, et ce, sans internet. Ce projet a été réalisé en Décembre 2021durant mon premier semestre en Conception d'interfaces numériques, suite au cursus dans lequel je suis actuellement : un DUT Informatique. 
 
-## Description
+# Description
 
 ## Dossiers
 
