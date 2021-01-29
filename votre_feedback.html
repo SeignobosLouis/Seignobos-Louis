@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mon site web</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+  <link rel="manifest" href="Favicon/site.webmanifest">
+  <link id="pagestyle" rel="stylesheet" href="CSS/design2.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <script src="JS/scroll.js" defer></script>
+</head>
+
+<body>
+
+  <div id="barremenu">
+    <a id="logo" href ="index.html">Accueil</a>
+    <a id ="projets" href="mes_projets.html" title="Mes projets">Mes projets</a>
+    <a id ="feedback" href="votre_feedback.html" title="Votre feedback">Votre feedback</a>
+  </div>
+  <section id="centre">
+    <p class="texeaccueil">Bonjour, voici la page concernant votre feedback. Vous pouvez y laisser le message que vous voulez, que ce soit des remarques que vous ayez à faire sur le site, votre avis...
+      <h1 class="grandtitre">Votre avis</h1>
+      <form class="questionnaire" action="mailto:louis.seignobos@etu.univ-amu.fr?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
+        <p><label id="prenom">Prénom :</label><input class="prenom" type="text" required name="prenom"><span class="mbr"> </span></p>
+        <p><label id="nom">Nom :</label><input class="nom" type="text" required name="nom"></p><br>
+        <textarea class ="impression" name="impression" rows="15" cols="100" placeholder="Laissez ici un avis, une remarque ou une impression sur le site:"></textarea><br/>
+        <label id="note">Donnez une note pour mon site :</label>
+        <input type="radio" class="notation"  name="notation" value="0">0
+        <input type="radio" class="notation"  name="notation" value="1">1
+        <input type="radio" class="notation"  name="notation" value="2">2
+        <input type="radio" class="notation"  name="notation" value="3">3
+        <input type="radio" class="notation"  name="notation" value="4">4
+        <input type="radio" class="notation"  name="notation" value="5">5
+        <br/><input type="submit" value="Envoyer"/>
+      </form>
+      <button id="stylesheet1"> Thème de base </button>
+      <button id="stylesheet2"> Nouveau thème </button>
+    </section>
+    <footer class="basdepage">
+      <p>Site cree par Louis Seignobos <br/>Projet realise dans le cadre d'une evaluation en Conception de documents et d'interfaces numeriques<br/> Decembre 2020</p>
+    </footer>
+    <script src="JS/swap.js"></script>
+
+  </body>
+
+  </html>

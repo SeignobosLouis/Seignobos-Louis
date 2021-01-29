@@ -1,0 +1,219 @@
+*{
+	font-family: 'Playfair Display', serif;
+}
+
+@font-face {
+	font-family: megaman;
+	src: url('../Font/megaman_2.woff');
+}
+
+body {
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+#barremenu {
+	padding: 35px 10px;
+	position: fixed;
+	width: 100%;
+	height:5%;
+	top: 0;
+	transition: 0.4s;
+	background-color:black;
+	background-repeat: no-repeat;
+	background-position-x:right;
+	background-image:url("../Images/mega.jpg");
+	font-family:megaman;
+}
+
+#logo{
+	position:relative;
+}
+
+#projets{
+	position:relative;
+}
+
+#feedback{
+	position:relative;
+}
+
+#barremenu a {
+	float: left;
+	padding: 12.5px;
+	line-height: 25px;
+	transition: 0.4s ease-in-out;
+	font-family:megaman;
+	font-size: 15px;
+}
+
+#barremenu > a:hover{
+	opacity: 0.5;
+	font-size: 16px;
+	transition: 0.4s ease-in-out;
+	font-family:megaman;
+}
+
+#barremenu #logo {
+	font-size: 35px;
+	transition: 0.4s ease-in-out;
+	font-family:megaman;
+}
+
+.grandtitre{
+	text-align: center;
+	line-height: 0px;
+	margin: 20px;
+	font-size:20px;
+	text-decoration:underline;
+}
+
+.texteaccueil{
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
+	margin: 20px;
+}
+
+.liens{
+	color:blue;
+}
+
+.liens:hover{
+	color:red;
+}
+
+.logos {
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+
+.logos a img:hover{
+	opacity:0.5;
+	transition:0.4s;
+}
+
+.reseaux{
+	margin:20px;
+	width:5em;
+	height:5em;
+}
+
+
+.adressetexte{
+	color:black;
+}
+
+.adressetexte:hover{
+	color:blue;
+}
+
+.basdepage{
+	background-repeat: no-repeat;
+	background-position-x:right;
+	background-color:black;
+	color:white;
+	text-align:center;
+	bottom:0;
+	width:100%;
+}
+
+.basdepage > p {
+	font-family:megaman;
+	margin: 0;
+	font-size:10px;
+	line-height:25px;
+}
+.questionnaire {
+	margin-bottom: 32px;
+}
+
+#centre{
+	margin:auto;
+	margin-top:130px;
+	margin-bottom:8px;
+	width:100%;
+	text-align:center;
+}
+
+#adressetableau{
+	border:1px solid black;
+}
+
+#pdfcontainer {
+	display: flex;
+	justify-content: center;
+}
+
+.pdf {
+	height: 800px;
+	width: 800px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.impression {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	
+	#barremenu #logo{
+		font-size:24px;
+	}
+	#barremenu a{
+		font-size:12px;
+		padding:8px 2px;
+	}
+
+	#barremenu{
+		padding:8px 8px;
+	}
+	#barremenu > a:hover{
+		font-size: 16px;
+	}
+	.pdf {
+		height: 1000px;
+		width: 100%;
+	}
+	#pdfcontainer {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	
+	#barremenu #logo{
+		font-size:18px;
+
+	}
+	#barremenu a{
+		font-size:10px;
+	}
+	#barremenu > a:hover{
+		font-size: 12px;
+	}
+	.reseaux{
+		margin:10px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	
+	#barremenu #logo{
+		font-size:12px;
+
+	}
+	#barremenu a{
+		font-size:6px;
+	}
+	#barremenu > a:hover{
+		font-size: 8px;
+	}
+}

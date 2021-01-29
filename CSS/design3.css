@@ -1,0 +1,248 @@
+*{
+  font-family: 'yoster', serif;
+
+}
+
+@font-face {
+  font-family: yoster;
+  src: url('../Font/yoster.ttf');
+}
+
+@font-face {
+  font-family: Minecraft_Evenings;
+  src: url('../Font/Minecraft_Evenings.otf');
+}
+
+html { 
+  background: url(../Images/minecart.gif) no-repeat center center fixed; 
+  background-size: cover;
+  margin:0;
+  padding:0;
+  -webkit-background-size: cover; 
+  background-size: cover;
+}
+
+body {
+  margin: 0px;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+#barremenu {
+  padding: 35px 10px;
+  position: fixed;
+  width: 100%;
+  height:5%;
+  top: 0;
+  transition: 0.4s;
+  background-color: #11ffee88;
+  font-family:Minecraft_Evenings;
+}
+
+#logo{
+  position:relative;
+}
+
+#projets{
+  position:relative;
+}
+
+#feedback{
+  position:relative;
+}
+
+#barremenu a {
+  float: right;
+  padding: 12.5px;
+  line-height: 25px;
+  transition: 0.4s ease-in-out;
+  font-family:Minecraft_Evenings;
+  font-size: 15px;
+}
+#barremenu > a:hover{
+  opacity: 0.5;
+  font-size: 16px;
+  transition: 0.4s ease-in-out;
+  font-family:Minecraft_Evenings;
+}
+
+#barremenu #logo {
+  font-size: 35px;
+  transition: 0.4s ease-in-out;
+  font-family:Minecraft_Evenings;
+}
+
+.grandtitre{
+  text-align: center;
+  line-height: 0px;
+  margin: 20px;
+  font-size:20px;
+  text-decoration:underline;
+  color:white;
+}
+
+.texteaccueil{
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  margin: 20px;
+  color:white;
+}
+
+
+.liens{
+  color:red;
+}
+
+.liens:hover{
+  color:yellow;
+}
+
+#liens2{
+  color:red;
+}
+
+
+#liens2:hover{
+  color:yellow;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.logos a img:hover{
+  opacity:0.5;
+  transition:0.4s;
+}
+
+.reseaux{
+  margin:20px;
+  width:5em;
+  height:5em;
+}
+
+
+.adressetexte{
+  color:white;
+}
+
+.adressetexte:hover{
+  color:blue;
+}
+
+.basdepage{
+  background-color: #11ffee88;
+  color:white;
+  text-align:center;
+  bottom:0;
+  width:100%;
+
+}
+
+.basdepage > p {
+  font-family:Minecraft_Evenings;
+  margin: 0;
+  font-size:25px;
+  line-height:25px;
+}
+
+.questionnaire {
+  margin-bottom: 32px;
+}
+
+#centre{
+  margin:auto;
+  margin-top:130px;
+  margin-bottom:8px;
+  width:100%;
+  text-align:center;
+  color:white;
+}
+
+#adressetableau{
+  border:1px solid black;
+}
+
+#pdfcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pdf {
+  height: 800px;
+  width: 800px;
+}
+
+#ppmoi{
+	background-color:rgba(0,0,0,0.4);
+}
+
+@media only screen and (max-width: 1000px) {
+  .impression {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  #barremenu #logo{
+    font-size:24px;
+  }
+  #barremenu a{
+    font-size:12px;
+    padding:8px 2px;
+  }
+
+  #barremenu{
+    padding:8px 8px;
+  }
+  #barremenu > a:hover{
+    font-size: 16px;
+  }
+  .pdf {
+    height: 1000px;
+    width: 100%;
+  }
+  #pdfcontainer {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  #barremenu #logo{
+    font-size:18px;
+
+  }
+  #barremenu a{
+    font-size:10px;
+  }
+  #barremenu > a:hover{
+    font-size: 12px;
+  }
+  .reseaux{
+    margin:10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  #barremenu #logo{
+    font-size:12px;
+
+  }
+  #barremenu a{
+    font-size:6px;
+  }
+  #barremenu > a:hover{
+    font-size: 8px;
+  }
+}
