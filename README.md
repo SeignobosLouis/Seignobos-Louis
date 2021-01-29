@@ -16,7 +16,7 @@ La hiérarchie des fichiers est organisée ainsi :
 
 <li> CSS : vous trouverez des pages de CSS qui est un langage informatique utilisé sur l'internet pour mettre en forme le texte contenu sur les pages HTML. </li>
 
-<li> Favicon : vous trouverez plusieurs images qui m'ont permis de mettre un logo à l'onglet de ma page web comme ceci ![alt text](https://github.com/freyaliser/Onglet-image/blob/main/onglet.png "onglet") </li>
+<li> Favicon : vous trouverez plusieurs images qui m'ont permis de mettre un logo à l'onglet de ma page web comme ceci ![alt text] (https://github.com/freyaliser/Onglet-image/blob/main/onglet.png "onglet") </li>
 
 <li> Font : vous trouverez tous les fichiers concernant les polices présentes dans le site web. </li>
 
