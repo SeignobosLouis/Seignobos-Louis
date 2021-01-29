@@ -10,9 +10,7 @@ Veuillez trouvez sur ce repository tous les dossiers nécessaires à le lecture 
 
 ## Dossiers
 
-La hiérarchie des fichiers est organisée ainsi :
-
-<ul> dans le dossier :
+<ul> La hiérarchie des fichiers est organisée ainsi dans le dossier:
 
 <li> CSS : vous trouverez des pages de CSS qui est un langage informatique utilisé sur l'internet pour mettre en forme le texte contenu sur les pages HTML. </li>
 
